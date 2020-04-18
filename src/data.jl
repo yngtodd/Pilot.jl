@@ -47,7 +47,6 @@ julia> y = transpose(reshape(collect(0:1), (2,1)))
 julia> split_data(x, y, 0.5)
 (([1; 3; … ; 7; 9], [0]), ([2; 4; … ; 8; 10], [1]))
 ```
-
 """
 function split_data(x, y, ratio=0.85)
     MLDataPattern.splitobs((x, y); at = ratio)
