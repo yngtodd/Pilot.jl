@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.com/yngtodd/Pilot.jl.svg?branch=master)](https://travis-ci.com/yngtodd/Pilot.jl)
 [![Codecov](https://codecov.io/gh/yngtodd/Pilot.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/yngtodd/Pilot.jl)
 
+Pilot to test using Julia for deep learning NLP problems.
+
 ## Citing
 
 See `CITATION.bib` for the relevant reference(s).
