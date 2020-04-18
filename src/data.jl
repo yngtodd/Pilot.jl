@@ -11,7 +11,7 @@ same data files for our models in Python.
 Say you created a numpy array created by, and saved
 it as `my_array.npy`:
 
-```
+```python
 np.arange(10).reshape((2, 5))
 
 >>> array([[0, 1, 2, 3, 4],
@@ -21,7 +21,7 @@ np.arange(10).reshape((2, 5))
 loading that array with `load_numpy("my_array.npy")`, 
 we would get
 
-```
+```julia
 5×2 LinearAlgebra.Transpose{Int64,Array{Int64,2}}:
  0  5
  1  6
