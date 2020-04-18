@@ -41,7 +41,7 @@ of the data belonging to the first tuple.
 # Examples
 ```julia-repl
 julia> x = transpose(reshape(collect(1:10), (2,5)))
-julia> y = transpose(reshape(collect((0:1), (2,1)))
+julia> y = transpose(reshape(collect(0:1), (2,1)))
 julia> split_data(x, y, ratio=0.5)
 (([1; 3; … ; 7; 9], [0]), ([2; 4; … ; 8; 10], [1]))
 ```
