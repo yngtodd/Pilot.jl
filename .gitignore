@@ -2,6 +2,7 @@
 *.jl.cov
 *.jl.mem
 .DS_Store
+/notebookes/.ipynb_checkpoints/
 /dev/
 /docs/build/
 /docs/site/
