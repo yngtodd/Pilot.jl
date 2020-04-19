@@ -1,0 +1,11 @@
+examples:
+  - examples/**/*
+
+src:
+  - src/**/*
+
+model:
+  - src/model/*
+
+data:
+  - src/data
