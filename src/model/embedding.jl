@@ -34,16 +34,6 @@ Forward pass of the Embedding layer.
 
 Given an array of size (input_dim, batch_size), this will 
 embed the information to (input_dim, embed_dim, batch_size).
-
-#Examples
-
-```julia-repl
-julia> input = rand(1:100, (10, 32))
-julia> m = Pilot.Embedding(100, 16)
-julia> out = m(input)
-julia> size(out)
-(10, 16, 32)
-```
 """
 function (e::Embedding)(x::AbstractArray{T, 2}) where {T}
     out = e.table[x, :]

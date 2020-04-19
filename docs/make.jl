@@ -9,7 +9,7 @@ makedocs(;
     repo="https://github.com/yngtodd/Pilot.jl/blob/{commit}{path}#L{line}",
     sitename="Pilot.jl",
     authors="yngtodd",
-    assets=String[],
+#    assets=String[],
 )
 
 deploydocs(;
