@@ -6,7 +6,7 @@ struct Embedding
 end
 
 
-Embedding(voc_size, feature_size) = Embedding(Flux.glorot_normal(voc_size, feature_size))
+Embedding(num_vocab, embed_dim) = Embedding(Flux.glorot_normal(num_vocab, embed_dim))
 
 
 (e::Embedding)(x) = e.table[x, :]
