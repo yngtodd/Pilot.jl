@@ -18,7 +18,7 @@ np.arange(10).reshape((2, 5))
            [5, 6, 7, 8, 9]])
 ```
 
-loading that array with `load_numpy("my_array.npy")`, 
+loading that array with `load_numpy("my_array.npy")`,
 we would get
 
 ```julia
