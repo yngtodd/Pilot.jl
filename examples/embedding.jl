@@ -21,6 +21,7 @@ input = rand(1:100, (10,32)) # input-size=10, batch-size=32
 
 out = model(input) # input-size x feature-size x batch-size
 println("$out")
+
 #loss(x) = sum(model(x)) # not actually meaningful, just as a test
 #loss(input)
 
