@@ -30,7 +30,7 @@ Embedding(num_vocab, embed_dim) = Embedding(Flux.glorot_normal(num_vocab, embed_
 
 
 """
-Forward pass of the Embedding layer. 
+Forward pass of the Embedding layer.
 
 Given an array of size (input_dim, batch_size), this will 
 embed the information to (input_dim, embed_dim, batch_size).
