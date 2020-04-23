@@ -15,8 +15,8 @@ end
 """
     Embedding(num_vocab, embed_dim)
 
-Construct an embedding layer for Flux models. This 
-is a mapping from the dimension of the model's 
+Construct an embedding layer for Flux models. This
+is a mapping from the dimension of the model's
 `num_vocab`, the number of unique vocabulary
 terms in a corpus, to some embedding dimension, `embed_dim`.
 
@@ -32,13 +32,13 @@ Embedding(num_vocab, embed_dim) = Embedding(Flux.glorot_normal(num_vocab, embed_
 """
 Forward pass of the Embedding layer.
 
-Given an array of size (input_dim, batch_size), this will 
+Given an array of size (input_dim, batch_size), this will
 embed the information to (input_dim, embed_dim, batch_size).
 
 # Examples
 ```julia-repl
 julia> input = rand(1:100, (10, 32))
-julia> m = Pilot.Embedding(100, 16)
+julia> m = Embedding(100, 16)
 julia> out = m(input)
 julia> size(out)
 (10, 16, 32)
