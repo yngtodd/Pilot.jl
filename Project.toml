@@ -3,16 +3,16 @@ uuid = "ae4e50cc-6dbb-4f20-9f13-c46e7dac87e8"
 authors = ["yngtodd"]
 version = "0.1.0"
 
-[compat]
-julia = "1.4"
-NPZ = "0.4.0"
-Flux = "0.10.3"
-MLDataPattern = "0.5.1"
-
 [deps]
-NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 MLDataPattern = "9920b226-0b2a-5f5f-9153-9aa70a013f8b"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+
+[compat]
+Flux = "0.10.3, 0.11"
+MLDataPattern = "0.5.1"
+NPZ = "0.4.0"
+julia = "1.4"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
